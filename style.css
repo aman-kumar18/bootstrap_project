@@ -1,0 +1,58 @@
+body{
+    background:blue;
+    margin:0;
+    padding:0;
+}
+.toparea{
+    background:#b55651;
+    padding:10px 0;
+    text-align:center;
+    color:white;
+}
+.logoarea{
+    background:#f2c38b;
+    padding:50px 0;
+    text-align:center;
+}
+.logoarea img{
+    width:110px;
+
+}
+.principle{
+    background:white;
+    padding:50px 0;
+    text-align:center;
+}
+.xyz{
+    width:100%;
+}
+.principle p{
+    text-align:justify;
+}
+.principle p:last-child{
+    text-align:right;
+}
+.department{
+    background:linear-gradient(rgba(255,255,255,0.8),rgba(255,255,255,0.8)),url("lib.jpg");
+    padding:50px 0;
+
+}
+.box{
+    background: white;
+    width:100%;
+    margin:5px;
+    padding:15px;
+
+}
+.box img{
+    width:100%;
+    transition:all 2s;
+
+}
+.box h5{
+
+}
+.box:hover img{
+    transform:rotate(360deg);
+
+}
